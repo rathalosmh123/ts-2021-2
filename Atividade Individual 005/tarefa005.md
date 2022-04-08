@@ -14,11 +14,11 @@
 
   Grafo de causa e efeito:
    <div align=center>
-     <img src="Grafo.png">
+     <img src="Grafo.PNG">
    </div>
    Tabela de decisão:
    <div align=center>
-     <img src="TabeladeDecisão.png">
+     <img src="TabeladeDecisão.PNG">
    </div>
    
 
