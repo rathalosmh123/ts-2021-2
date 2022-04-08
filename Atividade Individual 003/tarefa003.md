@@ -29,16 +29,19 @@
 |CE07|0.00 <= nota1 <= 10.00|V|E|
 |CE08|nota1 > 10.00|I|E|
 
+
+**cdm** - casas decimais
+
 |id|descrição|V/I|E/S|
 |---|---|---|---|
-**cdm** - casas decimais
 |CE09|cdm < 2|I|E|
 |CE10|cdm = 2|V|E|
 |CE11|cdm > 2|I|E|
 
+**tvn1** - tipo da variavel nota 1 
+
 |id|descrição|V/I|E/S|
 |---|---|---|---|
-**tvn1** - tipo da variavel nota 1 
 |CE12|tvn1 <> double|I|E|
 |CE13|tvn1 = double|V|E|
 |CE14|nota2 inserida|V|E|
@@ -47,16 +50,19 @@
 |CE17|0.00 <= nota2 <= 10.00|V|E|
 |CE18|nota2 > 10.00|I|E|
 
+
+**cdm** - casas decimais
+
 |id|descrição|V/I|E/S|
 |---|---|---|---|
-**cdm** - casas decimais
 |CE19|cdm < 2|I|E|
 |CE20|cdm = 2|V|E|
 |CE21|cdm > 2|I|E|
 
+**tvn2** - tipo da variavel nota 2
+
 |id|descrição|V/I|E/S|
 |---|---|---|---|
-**tvn2** - tipo da variavel nota 2
 |CE22|tvn2 <> double|I|E|
 |CE23|tvn2 = double|V|E|
 |CE24|cargaHoraria inserida|V|E|
@@ -64,9 +70,11 @@
 |CE26|cargaHoraria = {32, 64, 96 e 128} |V|E|
 |CE27|cargaHoraria <> {32, 64, 96 e 128}|I|E|
 
+
+**tvch** - tipo da variavel CargaHoraria
+
 |id|descrição|V/I|E/S|
 |---|---|---|---|
-**tvch** - tipo da variavel CargaHoraria
 |CE28|tvch <> int|I|E|
 |CE29|tvch = int|V|E|
 |CE30|faltas inseridas|V|E|
