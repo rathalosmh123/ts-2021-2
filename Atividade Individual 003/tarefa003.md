@@ -19,7 +19,7 @@
 **Classes de Equivalência**
 
 |id|descrição|V/I|E/S|
-
+|---|---|---|---|
 |CE01|informar menos que 4 parâmetros |I|E|
 |CE02|informar 4 parâmetros |V|E|
 |CE03|informar mais que 4 parâmetros |I|E|
@@ -29,11 +29,15 @@
 |CE07|0.00 <= nota1 <= 10.00|V|E|
 |CE08|nota1 > 10.00|I|E|
 
+|id|descrição|V/I|E/S|
+|---|---|---|---|
 **cdm** - casas decimais
 |CE09|cdm < 2|I|E|
 |CE10|cdm = 2|V|E|
 |CE11|cdm > 2|I|E|
 
+|id|descrição|V/I|E/S|
+|---|---|---|---|
 **tvn1** - tipo da variavel nota 1 
 |CE12|tvn1 <> double|I|E|
 |CE13|tvn1 = double|V|E|
@@ -43,11 +47,15 @@
 |CE17|0.00 <= nota2 <= 10.00|V|E|
 |CE18|nota2 > 10.00|I|E|
 
+|id|descrição|V/I|E/S|
+|---|---|---|---|
 **cdm** - casas decimais
 |CE19|cdm < 2|I|E|
 |CE20|cdm = 2|V|E|
 |CE21|cdm > 2|I|E|
 
+|id|descrição|V/I|E/S|
+|---|---|---|---|
 **tvn2** - tipo da variavel nota 2
 |CE22|tvn2 <> double|I|E|
 |CE23|tvn2 = double|V|E|
@@ -56,6 +64,8 @@
 |CE26|cargaHoraria = {32, 64, 96 e 128} |V|E|
 |CE27|cargaHoraria <> {32, 64, 96 e 128}|I|E|
 
+|id|descrição|V/I|E/S|
+|---|---|---|---|
 **tvch** - tipo da variavel CargaHoraria
 |CE28|tvch <> int|I|E|
 |CE29|tvch = int|V|E|
@@ -79,7 +89,7 @@
 **Casos de Teste**
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
-
+|---|---|---|---|
 |CT01|,7.00,32,8|"Inválido"|CE01,CE05,CE14,CE17,CE20,CE23,CE24,CE27,CE29,CE30,CE33,CE37,CE38|
 |CT02|7.00,,32,8|"Inválido"|CE01,CE04,CE07,CE10,CE13,CE15,CE24,CE27,CE29,CE30,CE33,CE37,CE38|
 |CT03|7.00,4.00,,8|"Inválido"|CE01,CE04,CE07,CE10,CE13,CE14,CE17,CE20,CE23,CE25,CE30,CE34,CE37,CE38|
