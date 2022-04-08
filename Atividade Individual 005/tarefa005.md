@@ -24,7 +24,6 @@
 
 |CT|Sexo|Estado Civil|Idade|Valor de Entrada|Valor Esperado|
 |---|---|---|---|---|---|
-
 |CT01|Masculino|Solteiro|15|R$ 2.000,00|R$ 2.000,00|
 |CT02|Masculino|Solteiro|30|R$ 2.000,00|R$ 1.800,00|
 |CT03|Masculino|Casado|23|R$ 2.000,00|R$ 1.900,00|
