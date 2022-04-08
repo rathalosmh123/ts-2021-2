@@ -9,6 +9,7 @@ Vamos considerar o conjunto de classes de equivalência definidos na solução d
 
 
 |CT|Valor de Entrada|Resultado Esperado|Classe Equivalência|
+|---|---|---|---|
 |CT01|-0,10,7.00,64,12|"Valores Inválidos|CE02,CE04,CE06,CE10,CE13,CE14,CE17,CE20,CE23,CE24,CE27,CE29,CE30,CE33,CE37,CE38|
 |CT02|7.00,-0.52,32,10|"Valores Inválidos|CE02,CE04,CE06,CE10,CE13,CE14,CE16,CE20,CE23,CE24,CE27,CE29,CE30,CE33,CE37,CE38|
 |CT03|7.00,5.00,64,-5|"Valores Inválidos|CE02,CE04,CE06,CE10,CE13,CE14,CE16,CE20,CE23,CE24,CE27,CE29,CE30,CE32,CE37,CE38|
